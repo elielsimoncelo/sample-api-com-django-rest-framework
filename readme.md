@@ -41,3 +41,23 @@ deactivate
 pip install --upgrade pip
 pip install -r requirements.txt
 ```
+
+### Iniciar o projeto localmente
+```sh
+cd sample-api-com-django-rest-framework
+python ./src/manage.py runserver
+```
+
+### [INFO] Comandos utilizados no projeto
+
+#### Comando utilizado para criar o projeto com django
+```sh
+cd sample-api-com-django-rest-framework
+django-admin startproject setup .
+```
+
+#### Comando utilizado para criar uma nova aplicação com django
+```sh
+cd sample-api-com-django-rest-framework
+python manage.py startapp app
+```
