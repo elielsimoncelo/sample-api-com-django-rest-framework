@@ -1,2 +1,5 @@
 pylint
+markdown
 django
+django-filter
+djangorestframework
